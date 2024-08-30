@@ -1,0 +1,10 @@
+angka = int(input("masukkan angka: "))
+
+if angka < 10:
+           digit = "adalah satuan"
+   elif angka < 100:
+           digit = "adalah puluhan" 
+   elif angka < 1000:
+           digit = "adalah ratusan"
+           
+           
